@@ -1,0 +1,29 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  background-color: #171717;
+  height: 80px;
+}
+.navbar ul.navbar-nav li.nav-item {
+  margin: 10px;
+}
+.navbar ul.navbar-nav li.nav-item a {
+  color: #eaeaef;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.navbar ul.navbar-nav li.nav-item a:hover {
+  text-decoration: underline;
+}
+.navbar ul.navbar-nav li.nav-item a.active {
+  color: #f9b234;
+  font-weight: 500;
+}
+.navbar .cart-wrapper a {
+  text-decoration: none;
+}
+.navbar .cart-wrapper a span {
+  color: #f9b234;
+}/*# sourceMappingURL=customize.css.map */

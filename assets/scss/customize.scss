@@ -1,0 +1,37 @@
+$darkGrey: #171717;
+$white: #eaeaef;
+$yellow: #f9b234;
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  background-color: $darkGrey;
+  height: 80px;
+  ul.navbar-nav {
+    li.nav-item {
+      margin: 10px;
+      a {
+        color: $white;
+        text-transform: uppercase;
+        font-weight: 300;
+        &:hover {
+          text-decoration: underline;
+        }
+        &.active {
+          color: $yellow;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+  .cart-wrapper {
+    a {
+      text-decoration: none;
+      span{
+        color: $yellow;
+      }
+    }
+  }
+}
