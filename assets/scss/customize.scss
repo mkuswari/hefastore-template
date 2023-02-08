@@ -4,11 +4,29 @@ $yellow: #f9b234;
 $light: #f6f7fb;
 $blue: #1b2690;
 $graySecondary: #808080;
+$borderGray: #d0d0d0;
 
 body {
   font-family: "Poppins", sans-serif;
 }
 
+.section_title {
+  h2 {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Lora", serif;
+    color: $blue;
+    line-height: 24px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $graySecondary;
+  }
+}
+
+// Navbar
 .navbar {
   background-color: $darkGrey;
   height: 80px;
@@ -39,6 +57,7 @@ body {
   }
 }
 
+// Slider
 .slider-banner {
   height: 450px;
   background-color: $darkGrey;
@@ -67,26 +86,12 @@ body {
   }
 }
 
+// Brands
 .brands {
   padding: 70px;
 }
 
-.section_title {
-  h2 {
-    font-size: 22px;
-    font-weight: 700;
-    font-family: "Lora", serif;
-    color: $blue;
-    line-height: 24px;
-  }
-  p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: $graySecondary;
-  }
-}
-
+// Products
 .products {
   background-color: $light;
   padding: 48px;
@@ -104,7 +109,7 @@ body {
           background-color: rgba(0, 0, 0, 0.7);
           opacity: 0;
           transition: opacity 0.3s;
-          &:hover{
+          &:hover {
             opacity: 1;
           }
         }
@@ -123,6 +128,46 @@ body {
           line-height: 18px;
           color: $graySecondary;
         }
+      }
+    }
+  }
+}
+
+// Designers
+.designers {
+  margin: 70px;
+  figure {
+    .img-wrapper {
+      padding: 10px;
+      border: 1px solid $borderGray;
+      border-radius: 50%;
+      display: flex;
+      position: relative;
+      img {
+        margin: auto;
+        &:hover {
+          filter: drop-shadow(2px 4px 5px rgba(0, 0, 0, 0.25));
+          transition: 0.3s;
+        }
+      }
+      .verified{
+        position: absolute;
+        bottom: 10px;
+        right: 0;
+      }
+    }
+    .figure-caption {
+      text-align: center;
+      margin-top: 8px;
+      h4 {
+        font-weight: 500;
+        font-size: 16px;
+        color: $darkGrey;
+      }
+      p {
+        font-weight: 400;
+        font-size: 12px;
+        color: $graySecondary;
       }
     }
   }
