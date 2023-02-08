@@ -123,6 +123,10 @@ body {
   display: flex;
   position: relative;
 }
+.designers figure .img-wrapper:hover {
+  border: 1px solid #1b2690;
+  transition: 0.3s;
+}
 .designers figure .img-wrapper img {
   margin: auto;
 }
