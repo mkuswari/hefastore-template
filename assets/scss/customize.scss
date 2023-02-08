@@ -1,6 +1,9 @@
 $darkGrey: #171717;
 $white: #eaeaef;
 $yellow: #f9b234;
+$light: #f6f7fb;
+$blue: #1b2690;
+$graySecondary: #808080;
 
 body {
   font-family: "Poppins", sans-serif;
@@ -64,6 +67,63 @@ body {
   }
 }
 
-.brands{
+.brands {
   padding: 70px;
+}
+
+.section_title {
+  h2 {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Lora", serif;
+    color: $blue;
+    line-height: 24px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $graySecondary;
+  }
+}
+
+.products {
+  background-color: $light;
+  padding: 48px;
+  .product-wrapper {
+    margin-top: 28px;
+    figure {
+      .figure-img {
+        position: relative;
+        a {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 8px;
+          background-color: rgba(0, 0, 0, 0.7);
+          opacity: 0;
+          transition: opacity 0.3s;
+          &:hover{
+            opacity: 1;
+          }
+        }
+      }
+      .figure-caption {
+        text-align: center;
+        h4 {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+          color: $darkGrey;
+        }
+        p {
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 18px;
+          color: $graySecondary;
+        }
+      }
+    }
+  }
 }
