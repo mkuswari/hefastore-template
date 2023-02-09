@@ -339,6 +339,11 @@ footer .nav a:hover {
 .my-cart {
   padding-bottom: 70px;
 }
+.my-cart .form-control {
+  background-color: #eaeaef;
+  border: 0;
+  height: 40px;
+}
 .my-cart .img-item {
   width: 80px;
   height: 80px;
