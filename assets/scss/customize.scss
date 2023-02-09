@@ -206,17 +206,117 @@ footer {
   }
 }
 
-@media (max-width: 575.98px) { 
-  footer{
-    p{
+// Breadcrumbs
+.breadcrumb {
+  .breadcrumb-item {
+    a {
+      color: $blue;
+      text-decoration: none;
+    }
+  }
+}
+
+// Product detail
+.single-item-detail {
+  figure {
+    .thumbnail-wrapper-container {
+      transform: translateY(-50px);
+      background-color: white;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+      a {
+        &:hover {
+          border: 1.5px solid $blue;
+        }
+      }
+    }
+  }
+
+  .product-detail {
+    h2 {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 36px;
+    }
+    P {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 27px;
+      color: $graySecondary;
+    }
+    .button-action-wrapper {
+      margin: 25px 0;
+      .btn-decrement {
+        background-color: #eaeaef;
+        color: #fff;
+      }
+      .btn-increment {
+        background-color: #f9b234;
+        color: #fff;
+      }
+    }
+    .btn-action {
+      .btn-cart {
+        background-color: $yellow;
+        color: $light;
+        padding: 10px 30px;
+      }
+      .btn-whislist {
+        background-color: $light;
+        color: $darkGrey;
+        padding: 10px 30px;
+      }
+    }
+    .designer {
+      margin-top: 40px;
+      padding-top: 25px;
+      border-top: 2px solid $light;
+      h4 {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 18px;
+        color: #808080;
+      }
+      .designer-wrapper {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        padding: 4px;
+        border: 1px solid $borderGray;
+      }
+      .designer-detail {
+        margin-left: 10px;
+        h3 {
+          font-weight: 400;
+          font-size: 16px;
+          color: $darkGrey;
+          margin: 0;
+        }
+        p {
+          font-weight: 300;
+          font-size: 12px;
+          margin: 0;
+          color: $blue;
+          font-weight: 400;
+          span {
+            color: $graySecondary;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  footer {
+    p {
       font-size: 14px;
       text-align: center;
     }
-    .nav{
-      a{
+    .nav {
+      a {
         font-size: 12px;
         text-align: center;
       }
     }
   }
- }
+}

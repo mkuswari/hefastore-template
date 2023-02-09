@@ -180,6 +180,89 @@ footer .nav a:hover {
   transition: 0.3s;
 }
 
+.breadcrumb .breadcrumb-item a {
+  color: #1b2690;
+  text-decoration: none;
+}
+
+.single-item-detail figure .thumbnail-wrapper-container {
+  transform: translateY(-50px);
+  background-color: white;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+.single-item-detail figure .thumbnail-wrapper-container a:hover {
+  border: 1.5px solid #1b2690;
+}
+.single-item-detail .product-detail h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+.single-item-detail .product-detail P {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #808080;
+}
+.single-item-detail .product-detail .button-action-wrapper {
+  margin: 25px 0;
+}
+.single-item-detail .product-detail .button-action-wrapper .btn-decrement {
+  background-color: #eaeaef;
+  color: #fff;
+}
+.single-item-detail .product-detail .button-action-wrapper .btn-increment {
+  background-color: #f9b234;
+  color: #fff;
+}
+.single-item-detail .product-detail .btn-action .btn-cart {
+  background-color: #f9b234;
+  color: #f6f7fb;
+  padding: 10px 30px;
+}
+.single-item-detail .product-detail .btn-action .btn-whislist {
+  background-color: #f6f7fb;
+  color: #171717;
+  padding: 10px 30px;
+}
+.single-item-detail .product-detail .designer {
+  margin-top: 40px;
+  padding-top: 25px;
+  border-top: 2px solid #f6f7fb;
+}
+.single-item-detail .product-detail .designer h4 {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  color: #808080;
+}
+.single-item-detail .product-detail .designer .designer-wrapper {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  padding: 4px;
+  border: 1px solid #d0d0d0;
+}
+.single-item-detail .product-detail .designer .designer-detail {
+  margin-left: 10px;
+}
+.single-item-detail .product-detail .designer .designer-detail h3 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #171717;
+  margin: 0;
+}
+.single-item-detail .product-detail .designer .designer-detail p {
+  font-weight: 300;
+  font-size: 12px;
+  margin: 0;
+  color: #1b2690;
+  font-weight: 400;
+}
+.single-item-detail .product-detail .designer .designer-detail p span {
+  color: #808080;
+}
+
 @media (max-width: 575.98px) {
   footer p {
     font-size: 14px;
