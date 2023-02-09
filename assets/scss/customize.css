@@ -336,6 +336,57 @@ footer .nav a:hover {
   line-height: 24px;
 }
 
+.my-cart {
+  padding-bottom: 70px;
+}
+.my-cart .img-item {
+  width: 80px;
+  height: 80px;
+}
+.my-cart .item-detail {
+  margin-left: 20px;
+}
+.my-cart .item-detail h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #171717;
+  margin: 0;
+}
+.my-cart .item-detail p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #808080;
+  margin: 0;
+}
+.my-cart .btn-action-wrapper .btn-decrement {
+  background-color: #eaeaef;
+  color: #fff;
+}
+.my-cart .btn-action-wrapper .btn-increment {
+  background-color: #f9b234;
+  color: #fff;
+}
+.my-cart .btn-clear {
+  background-color: #e80505;
+  color: #fff;
+}
+.my-cart .panel-info {
+  background-color: #f6f7fb;
+  padding: 25px;
+  border: 1px solid #d0d0d0;
+  border-radius: 4px;
+}
+.my-cart .panel-info h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #171717;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
 @media (max-width: 575.98px) {
   footer p {
     font-size: 14px;
